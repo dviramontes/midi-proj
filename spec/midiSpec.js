@@ -8,12 +8,12 @@ describe("midi library loaded", function() {
 });
 
 describe("there should be an instrument connected", function() {
-        it("should be called Launchpad", function() {
-                var midi = libs.midi;
-                var output = new midi.output();
-                expect(output.getPortName(1)).toBe("Launchpad");
-                // _.times(output.getPortCount(), function(n) {
+    it("should be called Launchpad", function() {
+        var midi = libs.midi;
+        var output = new midi.output();
+        expect(output.getPortName(1)).toBe("Launchpad");
+        // _.times(output.getPortCount(), function(n) {
 
-                // });
-            });
-        });
+        // });
+    });
+});
